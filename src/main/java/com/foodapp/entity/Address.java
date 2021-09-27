@@ -99,6 +99,20 @@ public class Address {
 	public void setPincode(String pincode) {
 		this.pincode = pincode;
 	}
+
+	public Address(int addressid, String buildingName, String streetNo, String area, String city, String state,
+			String country, String pincode) {
+		super();
+		this.addressid = addressid;
+		this.buildingName = buildingName;
+		this.streetNo = streetNo;
+		this.area = area;
+		this.city = city;
+		this.state = state;
+		this.country = country;
+		this.pincode = pincode;
+	}
+	
 	
 	
 }
