@@ -8,8 +8,10 @@ import javax.persistence.EntityNotFoundException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.sprintaws.entity.OrderDetails;
-import com.sprintaws.repository.IOrderRepository;
+
+import com.foodapp.dao.IOrderRepository;
+import com.foodapp.entity.OrderDetails;
+
 
 
 @Service

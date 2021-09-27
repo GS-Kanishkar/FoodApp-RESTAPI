@@ -3,7 +3,9 @@ package com.foodapp.service;
 import java.util.List;
 import java.util.Optional;
 
-import com.sprintaws.entity.OrderDetails;
+import com.foodapp.entity.OrderDetails;
+
+
 
 
 public interface IOrderService 
